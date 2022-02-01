@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+
+*{
+	--theme-color-1: #4D224C;
+	--max-width:65vw;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+	
+}
+
+
+/* header styling */
+
+
+header{
+	position: absolute;
+	z-index: 1;
+	width: 100vw;
+	padding: 10px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: none;
+}
+
+
+nav{
+	width: var(--max-width);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: transparent;
+	margin: auto;
+}
+
+.navbar.sticky{
+	position: fixed;
+	background:#fff;
+	transition: all 0.3s ease-in;
+}
+
+.navlink.color-switch{
+	color: black;
+	font-weight: 800;
+}
+
+
+.nav-logo > img{
+	height: 50px;
+}
+
+
+.navigations{
+	display: flex;
+	align-items: center;
+	/* border: 1px solid; */
+	height: fit-content;
+}
+
+
+.navlink{
+	/* margin: 0 20px; */
+	padding: 12px 20px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+
+.navlink:hover{
+	color: var(--theme-color-1);
+	transition: 0.4s all ease;
+	border-bottom: 3px solid var(--theme-color-1);
+}
+
+
+.nav-btn{
+	border: 1px solid;
+	border-color: var(--theme-color-1);
+	margin-left: 10px;
+	padding: 10px 30px;
+	width: fit-content;
+	color: #fff;
+	background-color: var(--theme-color-1);
+}
+
+.nav-btn:hover{
+	color: #FFF;
+	background-color: #3a1a39;
+	border-bottom: none;
+}
+
+
+/* mega nav bar styling */
+
+
+.mega_navbar{
+	background-color: rgb(255, 255, 255);
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+
+.mega_navbar_wrapper{
+	width: var(--max-width);
+}
+
+.mega_navlink_services{
+	display: flex;
+	justify-content:left;
+	align-items: center;
+	margin: auto;
+}
+
+.mega_navlink_services_wrapper{
+	padding-right: 100px;
+	width: 200px;
+}
+
+.services_title h2{
+	font-size: 14px;
+	font-weight: 600;
+	text-align: left;
+}
+
+.services_body p{
+	font-size: 14px;
+}
+
+.read_more_btn{
+	padding: 20px 0 0 0;
+}
+
+.read_more_btn a{
+	color: var(--theme-color-1);
+	font-size: 13px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.mega_navlink_services_list{
+	border-left: 1px solid;
+	padding-left: 20px;
+}
+
+.mega_navlink_services_list a{
+	display: list-item;
+	list-style: none;
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+	font-weight: 300;
+	text-decoration: none;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+
+*{
+	--theme-color-1: #4D224C;
+	--section-color-1: #f3f3f3;
+	--max-width:65vw;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+	
+}
+
+
+
+h1{
+	color: white;
+	font-size: 40px;
+	line-height: 1.25;
+}
+
+h2{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.33;
+	margin-bottom: 20px;
+}
+
+
+
+.button-btn{
+	width: var(--max-width);
+	text-decoration: none;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+	width: 150px;
+	padding: 15px 10px;
+	margin-top: 30px;
+	color: white;
+	background-color: var(--theme-color-1);
+}
+
+.button-link{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+
+}
+
+/* meet our clients */
+
+.software-body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	padding: 70PX 0;
+	background-color: #f3f3f3;
+}
+
+.software-body-wrapper{
+	width: var(--max-width);
+
+	
+	
+}
+
+ 
+
+.our-software-dev{
+	display: block;
+	width: 900px;
+	margin: auto;
+}
+
+
+.our-software-dev-body{
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.9;
+	text-align: center;
+	/* color: rgba(50,50,50,.7); */
+	width: 90%;
+	margin: auto;
+}
+
+
+.services-offered{
+	width: 100vw;
+	margin-top: 50px;
+}
+
+.services-wrapper{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 1px;
+	grid-row-gap: 1px;
+	width: var(--max-width);
+
+}
+
+.content{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+	height: 220px;
+
+}
+
+.content-wrapper{
+	margin: auto;
+	padding-top: 30px;
+}
+
+.svg-image{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 15px;
+}
+
+.content img{
+	height: 70px;
+}
+
+
+.content2{
+	font-size: 16px;
+	font-weight: 600;
+}
+
+
+
+
+/* content description styling */
+
+.content_description{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--theme-color-1);
+	top: 0;
+	left: 0;
+	display: none;
+	transition: 0.3s ease all;
+}
+
+.content_description_header h2{
+	text-align: left;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 50px 0 6px 60px ;
+}
+
+
+.content_description_body{
+	width: 400px;
+}
+
+.content_description_body p{
+	color: white;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 1.9;
+	text-align: left;
+	padding-left: 60px;
+	padding-bottom: 10px;
+}
+
+
+.content_description_button a{
+	color: white;
+	font-size: 12px;
+	font-weight: 600;
+	text-decoration: none;
+	padding-left: 60px;
+	padding-top: 50px;
+}
+
+
+/* .team-btn{
+	margin: auto;
+} */

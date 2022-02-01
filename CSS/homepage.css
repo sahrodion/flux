@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+
+*{
+	--theme-color-1: #4D224C;
+	--section-color-1: #f3f3f3;
+	--bodyText-color-1: #707070;
+	--max-width:65vw;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+/*  */
+/* slider style */
+
+.slider{
+	width: 100vw;
+	position: relative;
+	height: 600px;
+	overflow: hidden;
+}
+
+.slider-img{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transition: 0.45s ease-in 0s;
+
+}
+
+.one{
+	/* background-image: url('/flux technology africa/assets/pexels-mikhail-nilov-7988218.jpg'); */
+	background-color: red;
+	background-size: cover;
+	background-position: 40%;
+	filter: brightness(50%);
+}
+
+.two{
+	/* background-image: url('/flux technology africa/assets/img 2.jpg'); */
+	background-color: blue;
+	background-size: cover;
+	background-position: 40%;
+	filter: brightness(50%);
+}
+
+.three{
+	/* background-image: url('/flux technology africa/assets/pexels-mikhail-nilov-7988218.jpg'); */
+	background-color: green;
+	background-size: cover;
+	background-position: 40%;
+	filter: brightness(50%);
+}
+
+.four{
+	/* background-image: url('/flux technology africa/assets/img 3.jpg'); */
+	background-color: yellow;
+	background-size: cover;
+	background-position: 40%;
+	filter: brightness(50%);
+}
+
+.five{
+	/* background-image: url('/flux technology africa/assets/img 4.jpg'); */
+	background-color: magenta;
+	background-size: cover;
+	background-position: 40%;
+	filter: brightness(50%);
+}
+
+
+/* who we are section style */
+
+.about-body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	margin: 70px 0;
+	padding-bottom: 50px;
+}
+
+.about-body-wrapper{
+	width: var(--max-width);
+
+	
+	
+}
+
+ 
+
+.about-us{
+	display: block;
+	width: 900px;
+	margin: auto;
+}
+
+
+
+.about-us-title{
+	text-align: center;
+	font-size: 35px;
+	font-weight: 600;
+	line-height: 1.33;
+	margin-bottom: 20px;
+}
+
+.about-us-body{
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.9;
+	text-align: center;
+	/* color: rgba(50,50,50,.7); */
+	width: 90%;
+	margin: auto;
+}
+
+.clients-logos{
+	/* background-image: url('assets/logos.png'); */
+	background-size: cover;
+	height: 400px;
+	margin: 50px auto;
+}
+
+.client-logoo{
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+	margin: auto;
+}
+
+.contact-btn{
+	text-align: center;
+	text-decoration: none;
+	margin: 0 auto;
+
+}
+
+.contact-btn .cont{
+	font-size: 13px;
+	font-weight: 600;
+	position: relative;
+	text-decoration: none;
+	border: 2px solid;
+	color: var(--theme-color-1);
+	padding: 10px;
+	padding-right: 35px;
+	padding-left: 10px;
+	width: 1000px;
+
+}
+
+.cont:after{
+	position: absolute;
+	content: "";
+	border-right: 2px solid;
+	border-top: 2px solid;
+	padding: 4px;
+	margin: 5px;
+	transform: rotate(45deg);
+}
+
+.cont:hover{
+	color: #fff;
+	border-color: var(--theme-color-1);
+	background-color: var(--theme-color-1);
+	transition: 0.35s all ease;
+}
+
+
+
+
+
+
+/* office location style */
+
+
+.offices{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+}
+
+.offices-container{
+	display: block;
+	width: var(--max-width);	
+}
+
+.offices-text{
+	display: block;
+	padding: 25px 0;
+}
+
+.offices-title{
+	text-align: center;
+	font-size: 35px;
+	font-weight: 600;
+	line-height: 1.33;
+	
+}
+
+.offices-text{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.9;
+	text-align: center;
+	width: 100%;
+	
+}
+
+.images-container{
+	border: 1px solid;
+	height: 330px;
+}
+
+
+
